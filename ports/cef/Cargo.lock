@@ -471,7 +471,7 @@ dependencies = [
 [[package]]
 name = "openssl"
 version = "0.0.2"
-source = "git+https://github.com/sfackler/rust-openssl.git#f71555e8207fef6ba6f6090078309ca9bbe3a51d"
+source = "git+https://github.com/sfackler/rust-openssl.git#e87639893d7b836d3d6008d7304ec7a16583c4e3"
 dependencies = [
  "libressl-pnacl-sys 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "openssl-sys 0.0.2 (git+https://github.com/sfackler/rust-openssl.git)",
@@ -480,7 +480,7 @@ dependencies = [
 [[package]]
 name = "openssl-sys"
 version = "0.0.2"
-source = "git+https://github.com/sfackler/rust-openssl.git#f71555e8207fef6ba6f6090078309ca9bbe3a51d"
+source = "git+https://github.com/sfackler/rust-openssl.git#e87639893d7b836d3d6008d7304ec7a16583c4e3"
 dependencies = [
  "pkg-config 0.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
