@@ -288,7 +288,7 @@ source = "git+https://github.com/alexcrichton/green-rs#b7e17fc19bb90d0bb53914e66
 [[package]]
 name = "green"
 version = "0.0.1"
-source = "git+https://github.com/servo/green-rs?ref=servo#9300d7e7dc73680c7446d78b10a309095636e64d"
+source = "git+https://github.com/servo/green-rs?ref=servo#803bc2c12a25856a03cd51617eda4b27faf795e1"
 
 [[package]]
 name = "harfbuzz"
@@ -520,7 +520,7 @@ dependencies = [
 [[package]]
 name = "rustuv"
 version = "0.0.1"
-source = "git+https://github.com/servo/green-rs?ref=servo#9300d7e7dc73680c7446d78b10a309095636e64d"
+source = "git+https://github.com/servo/green-rs?ref=servo#803bc2c12a25856a03cd51617eda4b27faf795e1"
 dependencies = [
  "green 0.0.1 (git+https://github.com/servo/green-rs?ref=servo)",
  "tls 0.0.1 (git+https://github.com/alexcrichton/tls-rs)",
