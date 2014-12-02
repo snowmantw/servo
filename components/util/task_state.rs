@@ -47,7 +47,7 @@ task_types! {
 mod imp {
     use super::{TaskState, TYPES};
 
-    thread_local!(static STATE: Cell<Option<TaskState>> = None)
+    local_data_key!(STATE: TaskState)
 
     pub fn initialize(x: TaskState) {
         match STATE.replace(Some(x)) {
